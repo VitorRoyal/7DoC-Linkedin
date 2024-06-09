@@ -1,0 +1,84 @@
+section.navbar {
+    height: 52px;
+    background: var(--fundo-card);
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar__busca {
+    width: 370px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar__logo__linkedin{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 34px;
+    margin-right: 8px;
+}
+
+.navbar__busca__icone {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 88px;
+}
+
+.navbar__input {
+    width: 280px;
+    height: 34px;
+    background: var(--input);
+    border: none;
+    border-radius: .3rem;
+    padding-left: 2,4rem;
+}
+
+.navbar__input::placeholder {
+    color: var(--texto-secundario);
+}
+
+.navbar nav {
+    display: flex;
+}
+
+.navbar__item {
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__item:last-child {
+    margin-left: .2rem;
+    border-left: 1px solid var (--texto-secundario);
+}
+
+.navbar__item a {
+    text-align: center;
+    width: 80px;
+    font-size: .8rem;
+    color: var(--texto-secundario);
+    transition: color .3s ease;
+}
+
+.navbar__item a:hover {
+    color: var(--texto-principal);
+}
+
+.item__icone {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+

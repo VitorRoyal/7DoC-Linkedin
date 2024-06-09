@@ -1,0 +1,58 @@
+div.sugestoes {
+    margin-top: 32px;
+    grid-area: conteudo;
+}
+
+section.card.sugestoes {
+    width: 320px;
+    padding: 1rem;
+    font-size: .875rem;
+}
+
+.sugestoes h2{
+    font-size: 1rem;
+}
+
+li.sugestao__item{
+    display: flex;
+    margin: 1rem 0;
+}
+
+li.sugestao__item>img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 8px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+li.sugestao__item>div {
+    display: flex;
+    flex-direction: column;
+}
+
+li.sugestao__item .perfil__nome {
+    font-weight: bold;
+}
+
+li.sugestao__item .perfil__nome:hover {
+    color: var(--primario);
+    cursor: pointer;
+}
+
+li.sugestao__item .perfil__titulo {
+    font-size: 12px;
+    color: var(--texto-secundario);
+}
+
+button.botao__sugestao {
+    width: 154px;
+    color: var(--texto-principal);
+    border: 1px solid var(--texto-principal);
+    background-color: transparent;
+    margin-top: 4px;
+}
+
+button.botao__sugestao.conectar {
+    width: 99px;
+}
